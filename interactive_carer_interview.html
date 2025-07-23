@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carer Interview Questions Guide</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fff;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px;
+        }
+        
+        h2 {
+            font-size: 2em;
+            font-weight: 600;
+            margin-bottom: 25px;
+            color: #2c5aa0;
+            border-bottom: 2px solid #2c5aa0;
+            padding-bottom: 10px;
+        }
+        
+        h3 {
+            font-size: 1.5em;
+            font-weight: 500;
+            margin: 25px 0 15px 0;
+            color: #2c5aa0;
+        }
+        
+        h4 {
+            font-size: 1.2em;
+            font-weight: 500;
+            margin: 20px 0 10px 0;
+            color: #444;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            font-size: 1em;
+            font-weight: 400;
+        }
+        
+        ul, ol {
+            margin: 15px 0 15px 30px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+            font-size: 1em;
+        }
+        
+        .emphasis {
+            font-weight: 500;
+            color: #2c5aa0;
+        }
+        
+        .quote {
+            font-style: italic;
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-left: 4px solid #2c5aa0;
+            margin: 20px 0;
+        }
+        
+        .stats-box {
+            background-color: #f0f4f8;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .case-study {
+            background-color: #fff9e6;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #ffd700;
+            margin: 20px 0;
+        }
+        
+        .step-box {
+            background-color: #e8f4fd;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 5px solid #2c5aa0;
+            margin: 20px 0;
+        }
+        
+        .chapter-title {
+            margin-top: 0;
+        }
+        
+        strong {
+            color: #2c5aa0;
+        }
+        
+        .checklist {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 6px;
+            margin: 15px 0;
+        }
+        
+        .warning-box {
+            background-color: #ffeaa7;
+            padding: 15px;
+            border-radius: 6px;
+            border-left: 4px solid #fdcb6e;
+            margin: 20px 0;
+        }
+
+        .red-flag-box {
+            background-color: #ffebee;
+            padding: 15px;
+            border-radius: 6px;
+            border-left: 4px solid #f44336;
+            margin: 20px 0;
+        }
+
+        .positive-box {
+            background-color: #e8f5e8;
+            padding: 15px;
+            border-radius: 6px;
+            border-left: 4px solid #4caf50;
+            margin: 20px 0;
+        }
+
+        .interview-question {
+            background-color: #f5f5f5;
+            padding: 12px;
+            border-radius: 6px;
+            margin: 10px 0;
+            border-left: 3px solid #2c5aa0;
+        }
+
+        .look-for {
+            font-style: italic;
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+
+        .evaluation-form {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border: 2px solid #dee2e6;
+            margin: 20px 0;
+        }
+
+        .form-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            align-items: center;
+        }
+
+        .form-field {
+            background-color: white;
+            padding: 5px 10px;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            min-width: 80px;
+        }
+
+        /* Interactive form elements */
+        input[type="text"], input[type="date"], input[type="number"], textarea {
+            background-color: white;
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 14px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        input[type="number"] {
+            width: 60px;
+            text-align: center;
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 60px;
+        }
+
+        .notes-field {
+            margin-top: 10px;
+        }
+
+        .question-container {
+            margin-bottom: 15px;
+        }
+
+        .score-input {
+            width: 50px !important;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .total-score {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #2c5aa0;
+        }
+
+        .save-button {
+            background-color: #2c5aa0;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            margin: 20px 0;
+            transition: background-color 0.3s;
+        }
+
+        .save-button:hover {
+            background-color: #1e4080;
+        }
+
+        .button-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .checkbox-list {
+            list-style: none;
+            margin-left: 0;
+        }
+
+        .checkbox-list li {
+            margin-bottom: 8px;
+        }
+
+        .checkbox-list input[type="checkbox"] {
+            margin-right: 8px;
+            width: auto;
+        }
+
+        .inline-input {
+            display: inline-block;
+            min-width: 200px;
+            margin: 0 5px;
+        }
+
+        .wide-input {
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h2 class="chapter-title">Carer Interview Questions Guide</h2>
+    <p class="emphasis">Building Confidence in Your Selection Process</p>
+    
+    <h3>Before the Interview</h3>
+    
+    <div class="checklist">
+        <p><strong>Preparation Checklist:</strong></p>
+        <ul>
+            <li>Review the carer's CV/application</li>
+            <li>Prepare your loved one's care summary</li>
+            <li>List specific needs and concerns</li>
+            <li>Plan for your loved one to meet the carer</li>
+            <li>Prepare the interview space</li>
+            <li>Allow 45-60 minutes for the interview</li>
+        </ul>
+    </div>
+
+    <div class="step-box">
+        <p><strong>Documents to Request:</strong></p>
+        <ul>
+            <li>Valid DBS certificate</li>
+            <li>Proof of right to work in UK</li>
+            <li>Professional references</li>
+            <li>Training certificates</li>
+            <li>Insurance documentation</li>
+            <li>Previous employer references</li>
+        </ul>
+    </div>
+
+    <h3>Core Interview Questions</h3>
+
+    <h4>Experience & Qualifications</h4>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>1.</strong> Tell us about your experience in dementia care.</p>
+            <p class="look-for">Look for: Specific examples, understanding of condition, length of experience</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q1"></textarea>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>2.</strong> What training have you completed in dementia care?</p>
+            <p class="look-for">Look for: Formal qualifications, ongoing training, specialist courses</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q2"></textarea>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>3.</strong> How many clients with dementia have you cared for?</p>
+            <p class="look-for">Look for: Range of experience, different stages of dementia</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q3"></textarea>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>4.</strong> What was your longest assignment and why did it end?</p>
+            <p class="look-for">Look for: Consistency, professional approach to endings</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q4"></textarea>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>5.</strong> Describe a challenging situation you've faced and how you handled it.</p>
+            <p class="look-for">Look for: Problem-solving skills, patience, professional boundaries</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q5"></textarea>
+        </div>
+    </div>
+
+    <h4>Understanding of Dementia</h4>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>6.</strong> How would you explain dementia to someone who doesn't understand it?</p>
+            <p class="look-for">Look for: Clear communication, empathy, accurate knowledge</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q6"></textarea>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>7.</strong> What are the different stages of dementia and how do care needs change?</p>
+            <p class="look-for">Look for: Understanding of progression, adaptability</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q7"></textarea>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>8.</strong> How do you approach someone who is confused or agitated?</p>
+            <p class="look-for">Look for: De-escalation techniques, patience, person-centred approach</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q8"></textarea>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>9.</strong> What would you do if someone refuses personal care?</p>
+            <p class="look-for">Look for: Respect for dignity, alternative approaches, communication skills</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q9"></textarea>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>10.</strong> How do you maintain someone's independence while keeping them safe?</p>
+            <p class="look-for">Look for: Balance of support and autonomy, creative solutions</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q10"></textarea>
+        </div>
+    </div>
+
+    <h4>Personal Care Skills</h4>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>11.</strong> Are you comfortable with all aspects of personal care?</p>
+            <p class="look-for">Look for: Confidence, professionalism, specific experience</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q11"></textarea>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>12.</strong> How do you approach intimate care while maintaining dignity?</p>
+            <p class="look-for">Look for: Respect, communication, proper techniques</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q12"></textarea>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>13.</strong> What would you do if you noticed changes in someone's health?</p>
+            <p class="look-for">Look for: Observation skills, communication with family/professionals</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q13"></textarea>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>14.</strong> How do you encourage someone to take medications they don't want?</p>
+            <p class="look-for">Look for: Patience, understanding, appropriate techniques</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q14"></textarea>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>15.</strong> Describe your approach to helping with mobility and transfers.</p>
+            <p class="look-for">Look for: Safety awareness, proper techniques, confidence</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q15"></textarea>
+        </div>
+    </div>
+
+    <h4>Communication & Relationships</h4>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>16.</strong> How do you build rapport with someone who has dementia?</p>
+            <p class="look-for">Look for: Patience, understanding, person-centred approach</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q16"></textarea>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>17.</strong> What do you do when someone doesn't remember who you are?</p>
+            <p class="look-for">Look for: Flexibility, non-confrontational approach, patience</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q17"></textarea>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>18.</strong> How do you communicate with family members about care?</p>
+            <p class="look-for">Look for: Regular updates, honesty, professional boundaries</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q18"></textarea>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>19.</strong> Tell us about a time you had to deal with a difficult family situation.</p>
+            <p class="look-for">Look for: Professionalism, empathy, conflict resolution</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q19"></textarea>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>20.</strong> How do you handle confidentiality?</p>
+            <p class="look-for">Look for: Understanding of boundaries, discretion, professionalism</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q20"></textarea>
+        </div>
+    </div>
+
+    <h4>Practical Scenarios</h4>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>21.</strong> What would you do if [loved one's name] became distressed during personal care?</p>
+            <p class="look-for">Look for: Specific strategies, patience, flexibility</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q21"></textarea>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>22.</strong> How would you respond if they wanted to go home (when they are at home)?</p>
+            <p class="look-for">Look for: Understanding of confusion, redirection techniques</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q22"></textarea>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>23.</strong> What if they refuse to eat or drink?</p>
+            <p class="look-for">Look for: Encouragement strategies, when to seek help</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q23"></textarea>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>24.</strong> How would you handle a situation where they want to leave the house alone?</p>
+            <p class="look-for">Look for: Safety awareness, distraction techniques, appropriate responses</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q24"></textarea>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>25.</strong> What would you do in a medical emergency?</p>
+            <p class="look-for">Look for: First aid knowledge, emergency procedures, staying calm</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q25"></textarea>
+        </div>
+    </div>
+
+    <h3>Personality & Approach Questions</h3>
+
+    <h4>Values & Attitude</h4>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>26.</strong> What do you find most rewarding about dementia care?</p>
+            <p class="look-for">Look for: Genuine care, positive attitude, understanding of value</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q26"></textarea>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>27.</strong> How do you cope with the emotional aspects of dementia care?</p>
+            <p class="look-for">Look for: Emotional resilience, healthy coping mechanisms</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q27"></textarea>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>28.</strong> What does person-centred care mean to you?</p>
+            <p class="look-for">Look for: Understanding of individual needs, respect for preferences</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q28"></textarea>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>29.</strong> How do you maintain your own wellbeing while caring for others?</p>
+            <p class="look-for">Look for: Self-care awareness, professional boundaries</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q29"></textarea>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>30.</strong> What would you do if you made a mistake?</p>
+            <p class="look-for">Look for: Honesty, accountability, learning from errors</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q30"></textarea>
+        </div>
+    </div>
+
+    <h4>Practical Considerations</h4>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>31.</strong> Are you comfortable with household tasks as part of care?</p>
+            <p class="look-for">Look for: Willingness, understanding of holistic care</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q31"></textarea>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>32.</strong> How do you feel about pets in the home?</p>
+            <p class="look-for">Look for: Comfort level, any allergies or concerns</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q32"></textarea>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>33.</strong> What are your views on maintaining routines?</p>
+            <p class="look-for">Look for: Understanding of importance, flexibility when needed</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q33"></textarea>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>34.</strong> How do you approach activities and stimulation?</p>
+            <p class="look-for">Look for: Creativity, understanding of abilities, person-centred approach</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q34"></textarea>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>35.</strong> What would you do if family members disagreed about care approaches?</p>
+            <p class="look-for">Look for: Diplomacy, professional boundaries, communication skills</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q35"></textarea>
+        </div>
+    </div>
+
+    <h4>Specific Situation Questions - Tailored to Your Loved One</h4>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>36.</strong> [Loved one's name] enjoys [specific activity]. How would you support this?</p>
+            <p class="look-for">Look for: Interest in individual preferences, creative thinking</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q36"></textarea>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>37.</strong> They sometimes [specific behaviour]. How would you respond?</p>
+            <p class="look-for">Look for: Understanding, appropriate strategies, patience</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q37"></textarea>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>38.</strong> Their mobility is [current state]. How would you support them safely?</p>
+            <p class="look-for">Look for: Appropriate techniques, safety awareness</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q38"></textarea>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>39.</strong> They have difficulty with [specific challenge]. What's your approach?</p>
+            <p class="look-for">Look for: Understanding, practical solutions, patience</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q39"></textarea>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>40.</strong> What questions do you have about [loved one's name] or their care needs?</p>
+            <p class="look-for">Look for: Genuine interest, thoughtful questions, engagement</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q40"></textarea>
+        </div>
+    </div>
+
+    <h3>Availability & Practical Matters</h3>
+
+    <h4>Scheduling & Commitment</h4>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>41.</strong> What are your available hours and days?</p>
+            <p class="look-for">Look for: Match with your needs, flexibility, reliability</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q41"></textarea>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>42.</strong> How much notice do you need for schedule changes?</p>
+            <p class="look-for">Look for: Reasonable flexibility, understanding of care needs</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q42"></textarea>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>43.</strong> What would you do if you were unwell and couldn't work?</p>
+            <p class="look-for">Look for: Backup plans, responsibility, communication</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q43"></textarea>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>44.</strong> Are you available for emergency situations?</p>
+            <p class="look-for">Look for: Flexibility, understanding of care realities</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q44"></textarea>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>45.</strong> How long are you hoping to stay in this position?</p>
+            <p class="look-for">Look for: Commitment, stability, realistic expectations</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q45"></textarea>
+        </div>
+    </div>
+
+    <h4>Transport & Logistics</h4>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>46.</strong> Do you drive and have your own transport?</p>
+            <p class="look-for">Look for: Reliability, ability to support appointments</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q46"></textarea>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>47.</strong> Are you comfortable with [specific location/area]?</p>
+            <p class="look-for">Look for: Local knowledge, travel comfort</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q47"></textarea>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <div class="interview-question">
+            <p><strong>48.</strong> How would you handle appointments and outings?</p>
+            <p class="look-for">Look for: Planning skills, confidence, experience</p>
+        </div>
+        <div class="notes-field">
+            <textarea placeholder="Notes on response..." id="q48"></textarea>
+        </div>
+    </div>
+
+    <h3>Questions for the Carer to Ask</h3>
+
+    <div class="step-box">
+        <p><strong>Encourage Them to Ask:</strong></p>
+        <div class="question-container">
+            <div class="interview-question">
+                <p><strong>49.</strong> What questions do you have about the role?</p>
+                <p class="look-for">Look for: Genuine interest, thoughtful questions</p>
+            </div>
+            <div class="notes-field">
+                <textarea placeholder="Notes on response..." id="q49"></textarea>
+            </div>
+        </div>
+        <div class="question-container">
+            <div class="interview-question">
+                <p><strong>50.</strong> Is there anything you'd like to know about [loved one's name]?</p>
+                <p class="look-for">Look for: Person-centred interest, care planning</p>
+            </div>
+            <div class="notes-field">
+                <textarea placeholder="Notes on response..." id="q50"></textarea>
+            </div>
+        </div>
+
+        <p><strong>Good carers should ask about:</strong></p>
+        <ul>
+            <li>Daily routines and preferences</li>
+            <li>Specific care needs and challenges</li>
+            <li>Family involvement and communication</li>
+            <li>Emergency procedures and contacts</li>
+            <li>Training and development opportunities</li>
+            <li>Support from the agency or family</li>
+        </ul>
+    </div>
+
+    <h3>Red Flags and Positive Indicators</h3>
+
+    <div class="red-flag-box">
+        <p><strong>Red Flags to Watch For:</strong></p>
+        <ul>
+            <li>Vague or evasive answers</li>
+            <li>Lack of specific dementia knowledge</li>
+            <li>Unwillingness to discuss challenges</li>
+            <li>Poor communication skills</li>
+            <li>Inflexibility or rigidity</li>
+            <li>Lack of empathy or understanding</li>
+            <li>Inappropriate personal disclosures</li>
+            <li>Unrealistic promises</li>
+            <li>Reluctance to follow procedures</li>
+            <li>No questions about the person or role</li>
+        </ul>
+    </div>
+
+    <div class="positive-box">
+        <p><strong>Positive Indicators:</strong></p>
+        <ul>
+            <li>Specific examples and experiences</li>
+            <li>Clear understanding of dementia</li>
+            <li>Empathy and patience</li>
+            <li>Professional boundaries</li>
+            <li>Flexibility and adaptability</li>
+            <li>Good communication skills</li>
+            <li>Genuine interest in the person</li>
+            <li>Asks thoughtful questions</li>
+            <li>Realistic about challenges</li>
+            <li>Commitment to ongoing learning</li>
+        </ul>
+    </div>
+
+    <h3>Interview Evaluation</h3>
+
+    <div class="evaluation-form">
+        <p><strong>Interview Evaluation Sheet</strong></p>
+        
+        <div class="form-row">
+            <span>Candidate:</span>
+            <input type="text" class="wide-input" id="candidate-name" placeholder="Enter candidate name">
+        </div>
+        <div class="form-row">
+            <span>Date:</span>
+            <input type="date" class="inline-input" id="interview-date">
+        </div>
+        <div class="form-row">
+            <span>Interviewer(s):</span>
+            <input type="text" class="wide-input" id="interviewers" placeholder="Enter interviewer names">
+        </div>
+
+        <p><strong>Rate each area (1-5 scale):</strong></p>
+        <div class="form-row">
+            <span>Experience & Qualifications:</span>
+            <input type="number" min="1" max="5" class="score-input" id="score1" oninput="calculateTotal()">
+            <span>/5</span>
+        </div>
+        <div class="form-row">
+            <span>Dementia Understanding:</span>
+            <input type="number" min="1" max="5" class="score-input" id="score2" oninput="calculateTotal()">
+            <span>/5</span>
+        </div>
+        <div class="form-row">
+            <span>Personal Care Skills:</span>
+            <input type="number" min="1" max="5" class="score-input" id="score3" oninput="calculateTotal()">
+            <span>/5</span>
+        </div>
+        <div class="form-row">
+            <span>Communication:</span>
+            <input type="number" min="1" max="5" class="score-input" id="score4" oninput="calculateTotal()">
+            <span>/5</span>
+        </div>
+        <div class="form-row">
+            <span>Personality Fit:</span>
+            <input type="number" min="1" max="5" class="score-input" id="score5" oninput="calculateTotal()">
+            <span>/5</span>
+        </div>
+        <div class="form-row">
+            <span>Reliability:</span>
+            <input type="number" min="1" max="5" class="score-input" id="score6" oninput="calculateTotal()">
+            <span>/5</span>
+        </div>
+        <div class="form-row">
+            <span>Problem-solving:</span>
+            <input type="number" min="1" max="5" class="score-input" id="score7" oninput="calculateTotal()">
+            <span>/5</span>
+        </div>
+        <div class="form-row">
+            <span>Empathy & Patience:</span>
+            <input type="number" min="1" max="5" class="score-input" id="score8" oninput="calculateTotal()">
+            <span>/5</span>
+        </div>
+        <div class="form-row">
+            <span>Professionalism:</span>
+            <input type="number" min="1" max="5" class="score-input" id="score9" oninput="calculateTotal()">
+            <span>/5</span>
+        </div>
+        <div class="form-row">
+            <span>Overall Impression:</span>
+            <input type="number" min="1" max="5" class="score-input" id="score10" oninput="calculateTotal()">
+            <span>/5</span>
+        </div>
+        <div class="form-row">
+            <span><strong>Total Score:</strong></span>
+            <span class="total-score" id="total-score">0/50</span>
+        </div>
+    </div>
+
+    <div class="stats-box">
+        <p><strong>Key Strengths:</strong></p>
+        <p>1. <input type="text" class="inline-input" id="strength1" placeholder="Enter key strength"></p>
+        <p>2. <input type="text" class="inline-input" id="strength2" placeholder="Enter key strength"></p>
+        <p>3. <input type="text" class="inline-input" id="strength3" placeholder="Enter key strength"></p>
+
+        <p><strong>Areas of Concern:</strong></p>
+        <p>1. <input type="text" class="inline-input" id="concern1" placeholder="Enter area of concern"></p>
+        <p>2. <input type="text" class="inline-input" id="concern2" placeholder="Enter area of concern"></p>
+        <p>3. <input type="text" class="inline-input" id="concern3" placeholder="Enter area of concern"></p>
+
+        <p><strong>Would you be comfortable leaving your loved one with this carer?</strong></p>
+        <ul class="checkbox-list">
+            <li><input type="checkbox" id="comfort1"> Yes, very comfortable</li>
+            <li><input type="checkbox" id="comfort2"> Yes, with some training</li>
+            <li><input type="checkbox" id="comfort3"> Unsure, need second interview</li>
+            <li><input type="checkbox" id="comfort4"> No, not suitable</li>
+        </ul>
+
+        <p><strong>Next Steps:</strong></p>
+        <ul class="checkbox-list">
+            <li><input type="checkbox" id="next1"> Offer position</li>
+            <li><input type="checkbox" id="next2"> Second interview</li>
+            <li><input type="checkbox" id="next3"> Check references</li>
+            <li><input type="checkbox" id="next4"> Request additional information</li>
+            <li><input type="checkbox" id="next5"> Decline application</li>
+        </ul>
+
+        <p><strong>Notes:</strong></p>
+        <textarea id="final-notes" placeholder="Additional notes and observations..."></textarea>
+    </div>
+
+    <h3>After the Interview</h3>
+
+    <div class="step-box">
+        <p><strong>Reference Check Questions:</strong></p>
+        <ol>
+            <li>How long did they work for you?</li>
+            <li>What were their main responsibilities?</li>
+            <li>How did they handle challenging situations?</li>
+            <li>Were they reliable and punctual?</li>
+            <li>How did they communicate with family?</li>
+            <li>Would you employ them again?</li>
+            <li>Any areas for improvement?</li>
+        </ol>
+    </div>
+
+    <div class="checklist">
+        <p><strong>Final Decision Factors:</strong></p>
+        <ul class="checkbox-list">
+            <li><input type="checkbox" id="factor1"> Qualifications and experience match needs</li>
+            <li><input type="checkbox" id="factor2"> Personality fits with loved one</li>
+            <li><input type="checkbox" id="factor3"> Professional references check out</li>
+            <li><input type="checkbox" id="factor4"> Availability matches requirements</li>
+            <li><input type="checkbox" id="factor5"> Family feels comfortable and confident</li>
+            <li><input type="checkbox" id="factor6"> Budget and terms agreed</li>
+            <li><input type="checkbox" id="factor7"> All documentation verified</li>
+        </ul>
+    </div>
+
+    <div class="quote">
+        <p><strong>Remember:</strong> Trust your instincts. The right carer will make you feel confident and reassured about your loved one's care.</p>
+        <p>Use this guide to ensure thorough, consistent interviews that help you select the best possible carer for your loved one.</p>
+    </div>
+
+    <div class="button-container">
+        <button class="save-button" onclick="saveForm()">Save Completed Form</button>
+    </div>
+
+    <script>
+        function calculateTotal() {
+            let total = 0;
+            for (let i = 1; i <= 10; i++) {
+                const score = parseInt(document.getElementById('score' + i).value) || 0;
+                total += score;
+            }
+            document.getElementById('total-score').textContent = total + '/50';
+        }
+
+        function saveForm() {
+            // Get current date for filename
+            const today = new Date();
+            const dateStr = today.toISOString().split('T')[0];
+            const candidateName = document.getElementById('candidate-name').value || 'Candidate';
+            const filename = `Carer_Interview_${candidateName.replace(/\s+/g, '_')}_${dateStr}.html`;
+
+            // Get all form data
+            const formData = {
+                candidate: document.getElementById('candidate-name').value,
+                date: document.getElementById('interview-date').value,
+                interviewers: document.getElementById('interviewers').value,
+                scores: {},
+                questions: {},
+                strengths: {},
+                concerns: {},
+                comfort: {},
+                nextSteps: {},
+                factors: {},
+                finalNotes: document.getElementById('final-notes').value
+            };
+
+            // Get scores
+            for (let i = 1; i <= 10; i++) {
+                formData.scores['score' + i] = document.getElementById('score' + i).value;
+            }
+
+            // Get question responses
+            for (let i = 1; i <= 50; i++) {
+                const element = document.getElementById('q' + i);
+                if (element) {
+                    formData.questions['q' + i] = element.value;
+                }
+            }
+
+            // Get strengths and concerns
+            for (let i = 1; i <= 3; i++) {
+                formData.strengths['strength' + i] = document.getElementById('strength' + i).value;
+                formData.concerns['concern' + i] = document.getElementById('concern' + i).value;
+            }
+
+            // Get checkboxes
+            for (let i = 1; i <= 4; i++) {
+                formData.comfort['comfort' + i] = document.getElementById('comfort' + i).checked;
+            }
+            for (let i = 1; i <= 5; i++) {
+                formData.nextSteps['next' + i] = document.getElementById('next' + i).checked;
+            }
+            for (let i = 1; i <= 7; i++) {
+                formData.factors['factor' + i] = document.getElementById('factor' + i).checked;
+            }
+
+            // Create HTML content with filled data
+            const htmlContent = document.documentElement.outerHTML;
+
+            // Create and download file
+            const blob = new Blob([htmlContent], { type: 'text/html' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+
+            alert('Form saved successfully! The file has been downloaded to your computer.');
+        }
+
+        // Make checkboxes mutually exclusive for comfort level
+        document.addEventListener('DOMContentLoaded', function() {
+            const comfortCheckboxes = ['comfort1', 'comfort2', 'comfort3', 'comfort4'];
+            comfortCheckboxes.forEach(id => {
+                document.getElementById(id).addEventListener('change', function() {
+                    if (this.checked) {
+                        comfortCheckboxes.forEach(otherId => {
+                            if (otherId !== id) {
+                                document.getElementById(otherId).checked = false;
+                            }
+                        });
+                    }
+                });
+            });
+        });
+    </script>
